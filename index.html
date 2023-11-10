@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neue Heute</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4 p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-bold fs-4">Neue Heute Bar</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre-o-restaurante" class="nav-link" href="">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#eventos">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cardapio">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/06_SOHO_Reportage_13.jpg" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/01_Berghain_Architektur_01.jpg" data-bs-interval="3000" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/01_Berghain_Architektur_02.jpg" data-bs-interval="3000" alt="Uma mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/05_Wohnkultur66_Reportage_02.jpg.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni rerum cumque soluta dicta voluptatum, necessitatibus repellat eaque eveniet enim adipisci omnis aut sequi quidem, non beatae veniam ex id. Eaque.</p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque esse quos, architecto reprehenderit, non at voluptates pariatur fuga repudiandae nobis, vitae nihil optio deserunt error! Similique harum voluptas aspernatur quisquam!</p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/Input.jpg" alt="Bolo de aniversário" class="d-block w-100 rounded mb-2 imgbar">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-disc"></i>
+                            Club
+                        </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illo sapiente, corporis vitae explicabo praesentium laborum eaque accusantium, neque quis, maxime officia ipsum cupiditate molestiae blanditiis dolorum voluptas alias nam!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/Rick-Mather-Croydon-underground-gallery-3-.jpg" alt="Bolo de aniversário" class="d-block w-100 rounded mb-2 imgbar">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-brush"></i>
+                            Galeria de arte
+                        </h3> 
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illo sapiente, corporis vitae explicabo praesentium laborum eaque accusantium, neque quis, maxime officia ipsum cupiditate molestiae blanditiis dolorum voluptas alias nam!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/Keith-Berlin-5-1024x683.jpg" alt="Bolo de aniversário" class="d-block w-100 rounded mb-2 imgbar">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-cup-straw"></i>
+                            Bar/Restaurante
+                        </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illo sapiente, corporis vitae explicabo praesentium laborum eaque accusantium, neque quis, maxime officia ipsum cupiditate molestiae blanditiis dolorum voluptas alias nam!</p>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosso <span class="text-colored">cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas" class="fw-bold text-start nav-link text-colored active">Drinks e Bebidas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos" class="fw-bold text-start nav-link text-colored">Pratos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 altura-imagem cardfoto" src="./images/cardapio/drinks/alcohol-3194824_1920.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Drink 01</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 altura-imagem cardfoto" src="./images/cardapio/drinks/cocktail-3327242_1920.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Drink 02</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 altura-imagem cardfoto" src="./images/cardapio/drinks/wine-7574989_1920.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Drink 03</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 altura-imagem cardfoto" src="./images/cardapio/drinks/beer-1218742_1920.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 altura-imagem cardfoto" src="./images/cardapio/10_Takano_Reportage_04.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Prato 01</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 altura-imagem cardfoto" src="./images/cardapio/fish-and-chips-656223_1920.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Prato 02</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 altura-imagem cardfoto" src="./images/cardapio/food-7595910_1920.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Prato 03</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 altura-imagem cardfoto" src="./images/cardapio/meal-2104989_1920.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Prato 04</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="ttelfone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="button" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo n° 145, Bairro Bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
